@@ -52,4 +52,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc *gz
 %attr(755,root,root) %{_bindir}/*
 %{_applnkdir}/Multimedia/*
-%{_datadir}/pixmaps/*
+%{_pixmapsdir}/*
