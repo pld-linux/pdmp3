@@ -1,0 +1,16 @@
+diff -Nru pdmp3-1.5.0/pdmp3/pixmaps/Makefile.am pdmp3-1.5.0.new/pdmp3/pixmaps/Makefile.am
+--- pdmp3-1.5.0/pdmp3/pixmaps/Makefile.am	Fri Aug 25 00:36:08 2000
++++ pdmp3-1.5.0.new/pdmp3/pixmaps/Makefile.am	Fri Aug 25 00:36:37 2000
+@@ -14,10 +14,8 @@
+ 		gnapster.xpm \
+ 		ripperx.xpm
+ 
+-ICONS        = \
++icons_DATA   = \
+ 		pdmp3-about.xpm \
+ 		pdmp3-desktop.png
+ 
+-install:
+-	cp -a $(ICONS) @datadir@/pixmaps
+-
++iconsdir     = $(datadir)/pixmaps
