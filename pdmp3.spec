@@ -9,7 +9,9 @@ Group(de):	X11/Applikationen/Multimedia
 Group(pl):	X11/Aplikacje/Multimedia
 Source0:	ftp://maul.viptx.net/pub/pdmp3/%{name}-%{version}.tar.gz
 Patch0:		%{name}-DESTDIR.patch
+Patch1:		%{name}-ac.patch
 URL:		http://maul.viptx.net/software/pdmp3.html
+BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gettext-devel
 BuildRequires:	gnome-libs-devel
@@ -33,10 +35,14 @@ inne ma³e narzêdzia. U¿ywa GNOME i gtk jako interfejsu graficznego.
 %prep
 %setup -q
 %patch0 -p1
+%patch1 -p1
 
 %build
-automake -a -c
+rm -f missing
 gettextize --copy --force
+autoconf
+aclocal -I macros
+automake -a -c
 %configure
 %{__make}
 
