@@ -22,13 +22,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 PDMP3 is a program to manage your mp3 collection. It supports id3 tag
 editing, file rename and deletion, playlist creation and other little
-utilities. It was written in C and uses GNOME and gtk as it's
+utilities. It was written in C and uses GNOME and GTK+ as it's
 graphical interface.
 
 %description -l pl
 PDMP3 jest programem do zarz±dzania zbiorem plików mp3. Obs³uguje
 edycjê tagów id3, zmianê nazwy i usuwanie plików, tworzenie playlist i
-inne ma³e narzêdzia. U¿ywa GNOME i gtk jako interfejsu graficznego.
+inne ma³e narzêdzia. U¿ywa GNOME i GTK+ jako interfejsu graficznego.
 
 %prep
 %setup -q
