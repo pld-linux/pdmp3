@@ -4,7 +4,7 @@ Name:		pdmp3
 Version:	1.5.0
 Release:	2
 License:	GPL
-Group:		X11/Applications/Multimedia
+Group:		X11/Applications/Sound
 Source0:	ftp://maul.viptx.net/pub/pdmp3/%{name}-%{version}.tar.gz
 Patch0:		%{name}-DESTDIR.patch
 Patch1:		%{name}-ac.patch
