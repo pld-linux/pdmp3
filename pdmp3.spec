@@ -1,5 +1,5 @@
-Summary:	PDMP3 is a mp3 manager for gnome
-Summary(pl):	Menad¿er mp3 dla GNOME
+Summary:	PDMP3 is a mp3 manager for GNOME
+Summary(pl):	PDMP3 - zarz±dca mp3 dla GNOME
 Name:		pdmp3
 Version:	1.5.0
 Release:	2
@@ -51,8 +51,6 @@ rm -rf $RPM_BUILD_ROOT
 	DESTDIR=$RPM_BUILD_ROOT \
 	Productivitydir=%{_applnkdir}/Multimedia
 
-gzip -9nf AUTHORS ChangeLog NEWS README
-
 #%find_lang %{name}
 
 %clean
@@ -60,7 +58,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *gz
+%doc AUTHORS ChangeLog NEWS README
 %attr(755,root,root) %{_bindir}/*
 %{_applnkdir}/Multimedia/*
 %{_pixmapsdir}/*
