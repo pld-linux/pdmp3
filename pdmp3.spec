@@ -22,7 +22,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 PDMP3 is a program to manage your mp3 collection. It supports id3 tag
 editing, file rename and deletion, playlist creation and other little
-utilities. It was written in C and uses gnome and gtk as it's
+utilities. It was written in C and uses GNOME and gtk as it's
 graphical interface.
 
 %description -l pl
