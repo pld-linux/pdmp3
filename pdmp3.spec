@@ -17,7 +17,6 @@ Requires:	xmms
 Requires:	gnapster
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
 
 %description
 PDMP3 is a program to manage your mp3 collection. It supports id3 tag
