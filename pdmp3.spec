@@ -1,5 +1,5 @@
-Summary:	PDMP3 is a mp3 manager for GNOME
-Summary(pl):	PDMP3 - zarz±dca mp3 dla GNOME
+Summary:	PDMP3 is a MP3 manager for GNOME
+Summary(pl):	PDMP3 - zarz±dca MP3 dla GNOME
 Name:		pdmp3
 Version:	1.5.0
 Release:	2
@@ -20,13 +20,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 
 %description
-PDMP3 is a program to manage your mp3 collection. It supports id3 tag
+PDMP3 is a program to manage your MP3 collection. It supports id3 tag
 editing, file rename and deletion, playlist creation and other little
 utilities. It was written in C and uses GNOME and GTK+ as it's
 graphical interface.
 
 %description -l pl
-PDMP3 jest programem do zarz±dzania zbiorem plików mp3. Obs³uguje
+PDMP3 jest programem do zarz±dzania zbiorem plików MP3. Obs³uguje
 edycjê tagów id3, zmianê nazwy i usuwanie plików, tworzenie playlist i
 inne ma³e narzêdzia. U¿ywa GNOME i GTK+ jako interfejsu graficznego.
 
