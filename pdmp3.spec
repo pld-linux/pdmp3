@@ -37,7 +37,7 @@ inne ma³e narzêdzia. U¿ywa GNOME i gtk jako interfejsu graficznego.
 
 %build
 rm -f missing
-gettextize --copy --force
+%{__gettextize}
 %{__autoconf}
 aclocal -I macros
 %{__automake}
