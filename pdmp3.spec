@@ -39,7 +39,7 @@ inne ma³e narzêdzia. U¿ywa GNOME i gtk jako interfejsu graficznego.
 rm -f missing
 %{__gettextize}
 %{__autoconf}
-aclocal -I macros
+%{__aclocal} -I macros
 %{__automake}
 %configure
 %{__make}
