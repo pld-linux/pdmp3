@@ -6,6 +6,7 @@ Release:	2
 License:	GPL
 Group:		X11/Applications/Sound
 Source0:	ftp://maul.viptx.net/pub/pdmp3/%{name}-%{version}.tar.gz
+# Source0-md5:	05f1e189c4a5eed5ef82e8a9b76199d6
 Patch0:		%{name}-DESTDIR.patch
 Patch1:		%{name}-ac.patch
 URL:		http://maul.viptx.net/software/pdmp3.html
