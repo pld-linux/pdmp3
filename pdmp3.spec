@@ -55,9 +55,9 @@ gzip -9nf AUTHORS ChangeLog NEWS README
 
 #%find_lang %{name}
 
-%clean                                                                          
-rm -rf $RPM_BUILD_ROOT                                                          
-                                                                                
+%clean
+rm -rf $RPM_BUILD_ROOT
+
 %files
 %defattr(644,root,root,755)
 %doc *gz
