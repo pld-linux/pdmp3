@@ -1,0 +1,10 @@
+--- ./configure.in.org	Mon Jul 31 23:56:35 2000
++++ ./configure.in	Sat Dec  8 01:19:09 2001
+@@ -3,7 +3,6 @@
+ AM_INIT_AUTOMAKE(pdmp3,1.5.0)
+ AM_CONFIG_HEADER(config.h)
+ 
+-AM_ACLOCAL_INCLUDE(macros)
+ 
+ GNOME_INIT
+ 
