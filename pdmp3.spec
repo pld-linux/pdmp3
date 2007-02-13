@@ -1,5 +1,5 @@
 Summary:	PDMP3 is a MP3 manager for GNOME
-Summary(pl.UTF-8):   PDMP3 - zarządca MP3 dla GNOME
+Summary(pl.UTF-8):	PDMP3 - zarządca MP3 dla GNOME
 Name:		pdmp3
 Version:	1.5.0
 Release:	2
