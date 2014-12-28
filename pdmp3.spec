@@ -12,7 +12,7 @@ Patch1:		%{name}-ac.patch
 URL:		http://maul.viptx.net/software/pdmp3.html
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	gnome-libs-devel
 Requires:	xmms
 Requires:	gnapster
